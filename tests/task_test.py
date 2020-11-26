@@ -13,3 +13,5 @@ class TestTask(unittest.TestCase):
 
     def test_task_has_duration(self):
         self.assertEqual(10, self.cook_dinner.duration)
+
+ 
